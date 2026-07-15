@@ -1,0 +1,19 @@
+VERSION 1.1 — ACTIONS RENDER
+
+1) Dans Render > SpeakYourMind > Environment, ajouter :
+   ADMIN_USERNAME = admin
+   ADMIN_PASSWORD = choisissez un mot de passe fort
+
+2) DATABASE_URL doit rester l'Internal Database URL Render.
+
+3) Envoyer le projet vers GitHub :
+   git add .
+   git commit -m "Version 1.1 sécurisée"
+   git push
+
+4) Liens :
+   Questionnaire officiel : https://speakyourmind-1qs4.onrender.com
+   Questionnaire test : https://speakyourmind-1qs4.onrender.com/survey?test=true
+   Administration : https://speakyourmind-1qs4.onrender.com/admin
+
+Le navigateur demandera ADMIN_USERNAME et ADMIN_PASSWORD pour /admin et l'export Excel.

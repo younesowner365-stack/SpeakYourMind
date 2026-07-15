@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Administration · Speak Your Mind</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <script src="/static/js/admin.js" defer></script>
+</head>
+<body class="admin-body">
+  <main class="admin-shell">
+    <header class="brand-header">
+      <img src="/static/images/brand-logos.png" alt="UM6P et Fondation Ibn Rochd" class="brand-logos">
+      <div class="brand-copy">
+        <div class="eyebrow">SPEAK YOUR MIND</div>
+        <h1>Tableau de bord RH</h1>
+        <p>Résultats anonymes consolidés — réponses de test exclues.</p>
+      </div>
+      <a class="primary-btn" href="/admin/export.xlsx">Exporter Excel</a>
+    </header>
+
+    <section class="dashboard-grid metrics-grid">
+      <article class="dashboard-card metric-tile">
+        <span>Réponses officielles</span>
+        <strong>{{ total_submissions }}</strong>
+      </article>
+      <article class="dashboard-card metric-tile">
+        <span>Moyenne générale</span>
+        <strong>{{ global_average }}<small>/5</small></strong>
+      </article>
+      <article class="dashboard-card metric-tile">
+        <span>Taux de satisfaction</span>
+        <strong>{{ satisfaction_rate }}<small>%</small></strong>
+      </article>
+      <article class="dashboard-card metric-tile test-tile">
+        <span>Réponses de test</span>
+        <strong>{{ test_submissions }}</strong>
+        {% if test_submissions > 0 %}
+        <form method="post" action="/admin/delete-tests" onsubmit="return confirm('Supprimer toutes les réponses de test ?');">
+          <button type="submit" class="danger-link">Supprimer les tests</button>
+        </form>
+        {% endif %}
+      </article>
+    </section>
+
+    <section class="dashboard-grid charts-grid">
+      <article class="dashboard-card chart-card">
+        <h2>Satisfaction par thème</h2>
+        <p>Moyenne convertie en pourcentage.</p>
+        <canvas id="section-chart" aria-label="Satisfaction par thème"></canvas>
+      </article>
+      <article class="dashboard-card chart-card">
+        <h2>Vue d'ensemble</h2>
+        <p>Positionnement de la satisfaction globale.</p>
+        <canvas id="global-chart" aria-label="Satisfaction globale"></canvas>
+      </article>
+    </section>
+
+    <section class="table-card dashboard-card">
+      <div class="table-heading">
+        <div>
+          <h2>Détail par question</h2>
+          <p>Les réponses de test ne sont pas incluses.</p>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Section</th>
+            <th>Question</th>
+            <th>Réponses</th>
+            <th>Moyenne / 5</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in stats %}
+          <tr>
+            <td>{{ item.question_id }}</td>
+            <td>{{ item.section }}</td>
+            <td>{{ item.question }}</td>
+            <td>{{ item.responses }}</td>
+            <td><strong>{{ item.average }}</strong></td>
+          </tr>
+          {% endfor %}
+          {% if not stats %}
+          <tr><td colspan="5" class="empty-state">Aucune réponse officielle enregistrée pour le moment.</td></tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script>
+    window.SECTION_STATS = {{ section_stats | tojson }};
+    window.GLOBAL_SATISFACTION = {{ satisfaction_rate }};
+  </script>
+</body>
+</html>

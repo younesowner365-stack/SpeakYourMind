@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questionnaire · Speak Your Mind</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  {% if is_test %}<div class="test-banner">MODE TEST — ces réponses seront exclues des statistiques.</div>{% endif %}
+  <main class="survey-shell">
+    <header class="survey-header">
+      <div>
+        <div class="eyebrow">SPEAK YOUR MIND</div>
+        <div id="section-title" class="section-title"></div>
+      </div>
+      <div id="counter" class="counter"></div>
+    </header>
+
+    <div class="progress-track">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+
+    <section class="question-card">
+      <h1 id="question-text"></h1>
+
+      <div id="likert-block">
+        <div class="scale-labels">
+          <span>Pas du tout d’accord</span>
+          <span>Tout à fait d’accord</span>
+        </div>
+        <div class="likert-options" id="likert-options"></div>
+        <label class="field-label" for="comment">Développement / faits / exemples <span>(facultatif)</span></label>
+        <textarea id="comment" rows="4" placeholder="Ajoutez un commentaire, surtout pour une note de 1 à 3."></textarea>
+      </div>
+
+      <div id="text-block" class="hidden">
+        <label class="field-label" for="open-answer">Votre réponse</label>
+        <textarea id="open-answer" rows="7" placeholder="Saisissez votre réponse ici."></textarea>
+      </div>
+
+      <div id="error-message" class="error-message"></div>
+
+      <footer class="survey-actions">
+        <button id="prev-btn" class="secondary-btn" type="button">← Précédent</button>
+        <button id="next-btn" class="primary-btn" type="button">Suivant →</button>
+      </footer>
+    </section>
+
+    <p class="privacy-note">Aucune donnée d’identité n’est enregistrée par l’application.</p>
+  </main>
+
+  <script>
+    window.SURVEY_QUESTIONS = {{ questions | tojson }};
+    window.SURVEY_IS_TEST = {{ is_test | tojson }};
+  </script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

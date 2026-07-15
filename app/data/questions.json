@@ -1,0 +1,396 @@
+[
+  {
+    "id": 1,
+    "section": "I. Climat et conditions de travail",
+    "type": "likert",
+    "question": "Je travaille dans un climat serein et respectueux.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 2,
+    "section": "I. Climat et conditions de travail",
+    "type": "likert",
+    "question": "Je peux exprimer un désaccord professionnel sans craindre de répercussions.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 3,
+    "section": "I. Climat et conditions de travail",
+    "type": "likert",
+    "question": "Les tensions et les conflits sont pris en charge rapidement et de manière appropriée.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 4,
+    "section": "I. Climat et conditions de travail",
+    "type": "likert",
+    "question": "Ma charge de travail est compatible avec les ressources disponibles et les délais demandés.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 5,
+    "section": "I. Climat et conditions de travail",
+    "type": "likert",
+    "question": "Je dispose des outils, des moyens et des conditions nécessaires pour accomplir correctement mes missions et préserver mon bien-être professionnel.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 6,
+    "section": "II. Communication interne",
+    "type": "likert",
+    "question": "Les informations nécessaires à mon travail me sont communiquées clairement et en temps utile.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 7,
+    "section": "II. Communication interne",
+    "type": "likert",
+    "question": "Les décisions qui ont un impact sur mon activité sont expliquées aux collaborateurs concernés.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 8,
+    "section": "II. Communication interne",
+    "type": "likert",
+    "question": "Je dispose d’une visibilité suffisante sur les budgets applicables à mes projets et sur les règles d’engagement et de validation.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 9,
+    "section": "II. Communication interne",
+    "type": "likert",
+    "question": "Les informations communiquées sont cohérentes, quel que soit l’interlocuteur sollicité.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 10,
+    "section": "II. Communication interne",
+    "type": "likert",
+    "question": "Les interlocuteurs et les circuits de décision ou de validation sont clairement identifiés.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 11,
+    "section": "II. Communication interne",
+    "type": "likert",
+    "question": "Avant toute décision fondée sur une information reçue, le management vérifie les faits et entend les personnes concernées.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 12,
+    "section": "III. Management souhaité",
+    "type": "likert",
+    "question": "Le management s’adresse aux collaborateurs de manière respectueuse, y compris en cas de désaccord ou de difficulté.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 13,
+    "section": "III. Management souhaité",
+    "type": "likert",
+    "question": "Les collaborateurs peuvent exprimer une critique ou une insatisfaction sans être menacés, écartés ou invités à quitter l’organisation.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 14,
+    "section": "III. Management souhaité",
+    "type": "likert",
+    "question": "Le management privilégie le dialogue, l’écoute et l’explication plutôt que l’autorité ou la menace.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 15,
+    "section": "III. Management souhaité",
+    "type": "likert",
+    "question": "Les objectifs et les priorités sont clairs ; lorsqu’ils changent, les changements d’orientation sont expliqués et communiqués en temps utile.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 16,
+    "section": "III. Management souhaité",
+    "type": "likert",
+    "question": "Le management apporte un soutien concret et formule des retours factuels, constructifs et respectueux.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 17,
+    "section": "III. Management souhaité",
+    "type": "likert",
+    "question": "Dans l’ensemble, le style de management favorise la confiance, l’autonomie, la reconnaissance et l’engagement des collaborateurs.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 18,
+    "section": "IV. Équité et confiance",
+    "type": "likert",
+    "question": "Les mêmes règles s’appliquent à tous et les situations comparables sont traitées de manière cohérente.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 19,
+    "section": "IV. Équité et confiance",
+    "type": "likert",
+    "question": "Les décisions concernant les collaborateurs reposent sur des critères objectifs et professionnels, et non sur des affinités personnelles.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 20,
+    "section": "IV. Équité et confiance",
+    "type": "likert",
+    "question": "La charge de travail, les responsabilités, les opportunités et la reconnaissance sont réparties selon des critères équitables et transparents.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 21,
+    "section": "IV. Équité et confiance",
+    "type": "likert",
+    "question": "Je peux signaler une situation que je considère injuste sans craindre de conséquences négatives.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 22,
+    "section": "IV. Équité et confiance",
+    "type": "likert",
+    "question": "Les informations personnelles ou sensibles communiquées au management sont traitées de manière confidentielle.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 23,
+    "section": "IV. Équité et confiance",
+    "type": "likert",
+    "question": "Le management respecte les engagements pris et motive clairement les décisions qui concernent les collaborateurs, notamment lorsqu’elles sont défavorables.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 24,
+    "section": "V. Évolution professionnelle et plan de carrière",
+    "type": "likert",
+    "question": "Je connais les possibilités d’évolution professionnelle au sein de la Fondation et, plus largement, de l’écosystème auquel elle appartient.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 25,
+    "section": "V. Évolution professionnelle et plan de carrière",
+    "type": "likert",
+    "question": "Les critères de promotion et d’évolution professionnelle sont transparents, objectifs et connus des collaborateurs.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 26,
+    "section": "V. Évolution professionnelle et plan de carrière",
+    "type": "likert",
+    "question": "Mon évolution fait l’objet d’échanges réguliers et d’un plan de développement qui débouche sur des actions concrètes et de réelles perspectives.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 27,
+    "section": "V. Évolution professionnelle et plan de carrière",
+    "type": "likert",
+    "question": "Les formations et les missions qui me sont confiées me permettent d’apprendre, de développer mes compétences et de progresser.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 28,
+    "section": "V. Évolution professionnelle et plan de carrière",
+    "type": "likert",
+    "question": "Les responsabilités exercées, les résultats obtenus et les compétences démontrées sont réellement pris en compte dans les décisions d’évolution.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 29,
+    "section": "V. Évolution professionnelle et plan de carrière",
+    "type": "likert",
+    "question": "Je peux envisager une progression professionnelle au sein de la Fondation ou de l’écosystème sans devoir les quitter.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 30,
+    "section": "V. Évolution professionnelle et plan de carrière",
+    "type": "likert",
+    "question": "La pesée de mon poste et ma rémunération reflètent les missions réellement exercées, leur complexité et mon niveau de responsabilité, et font l’objet d’un réexamen en cas d’évolution significative de mon poste.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 31,
+    "section": "V. Évolution professionnelle et plan de carrière",
+    "type": "likert",
+    "question": "Le montant de ma prime annuelle est directement corrélé à l’atteinte de mes objectifs individuels et collectifs, selon des critères clairs et mesurables.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 32,
+    "section": "VI. Mobilité et organisation des missions",
+    "type": "likert",
+    "question": "Les opportunités de mobilité au sein de la Fondation et de l’écosystème sont connues et communiquées de manière accessible.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 33,
+    "section": "VI. Mobilité et organisation des missions",
+    "type": "likert",
+    "question": "Les critères et les étapes permettant d’accéder à une mobilité sont clairs, objectifs et équitables.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 34,
+    "section": "VI. Mobilité et organisation des missions",
+    "type": "likert",
+    "question": "Je peux exprimer un souhait de mobilité sans craindre d’incidence négative sur mon évaluation, ma prime annuelle ou ma situation actuelle.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 35,
+    "section": "VI. Mobilité et organisation des missions",
+    "type": "likert",
+    "question": "Les conséquences d’une mobilité sur la fonction, la rémunération, l’ancienneté, les avantages et les conditions de travail sont expliquées avant toute décision.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 36,
+    "section": "VI. Mobilité et organisation des missions",
+    "type": "likert",
+    "question": "Les rôles, les responsabilités et les périmètres d’intervention sont clairement définis, ce qui limite les chevauchements de tâches.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 37,
+    "section": "VI. Mobilité et organisation des missions",
+    "type": "likert",
+    "question": "Des tâches extérieures à mon périmètre ne me sont confiées que lorsqu’elles sont justifiées et compatibles avec mes missions principales.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 38,
+    "section": "VI. Mobilité et organisation des missions",
+    "type": "likert",
+    "question": "Lorsque je suis sollicité(e) sur une tâche extérieure à mon périmètre, le motif, le rôle de chacun et la durée de mon intervention sont clairement définis.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 39,
+    "section": "VI. Mobilité et organisation des missions",
+    "type": "likert",
+    "question": "Toute évolution significative de mon périmètre de missions est préalablement discutée avec moi et formalisée.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 40,
+    "section": "VII. Collaboration et esprit d’équipe",
+    "type": "likert",
+    "question": "Les collaborateurs s’entraident et peuvent demander de l’aide sans craindre d’être jugés ou considérés comme incompétents.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 41,
+    "section": "VII. Collaboration et esprit d’équipe",
+    "type": "likert",
+    "question": "Les informations, les outils et les bonnes pratiques utiles au travail collectif sont partagés entre les collaborateurs et les équipes.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 42,
+    "section": "VII. Collaboration et esprit d’équipe",
+    "type": "likert",
+    "question": "Les contributions de toutes les personnes ayant participé à un projet sont reconnues de manière équitable.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 43,
+    "section": "VII. Collaboration et esprit d’équipe",
+    "type": "likert",
+    "question": "Lorsqu’une difficulté survient, la priorité est donnée à sa résolution plutôt qu’à la recherche d’une personne à blâmer.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 44,
+    "section": "VII. Collaboration et esprit d’équipe",
+    "type": "likert",
+    "question": "Les désaccords entre collaborateurs sont abordés directement et de manière professionnelle avec les personnes concernées.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 45,
+    "section": "VII. Collaboration et esprit d’équipe",
+    "type": "likert",
+    "question": "La collaboration ne dépend pas des affinités personnelles et ne se heurte pas à des logiques de territoire, de concurrence ou d’appropriation des sujets.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 46,
+    "section": "VII. Collaboration et esprit d’équipe",
+    "type": "likert",
+    "question": "Les collaborateurs respectent leurs engagements et leurs délais, ou alertent suffisamment tôt lorsqu’ils ne peuvent pas les tenir.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 47,
+    "section": "VIII. Collaboration inter-départementale",
+    "type": "likert",
+    "question": "Les rôles et les responsabilités respectifs des différents départements sont suffisamment clairs pour permettre une collaboration efficace.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 48,
+    "section": "VIII. Collaboration inter-départementale",
+    "type": "likert",
+    "question": "Les demandes adressées aux autres départements sont prises en charge dans des délais compatibles avec les besoins opérationnels.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 49,
+    "section": "VIII. Collaboration inter-départementale",
+    "type": "likert",
+    "question": "Les informations, avis, documents ou livrables transmis par les autres départements sont suffisamment complets, fiables et exploitables.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 50,
+    "section": "VIII. Collaboration inter-départementale",
+    "type": "likert",
+    "question": "Dans le cadre des projets communs, les différents départements se coordonnent efficacement et partagent les informations nécessaires en temps utile.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 51,
+    "section": "VIII. Collaboration inter-départementale",
+    "type": "likert",
+    "question": "En cas de difficulté ou de divergence entre départements, les équipes concernées recherchent ensemble une solution constructive, sans se renvoyer la responsabilité.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 52,
+    "section": "VIII. Collaboration inter-départementale",
+    "type": "likert",
+    "question": "Globalement, je suis satisfait(e) de la qualité de la collaboration entre mon département et les autres départements de la Fondation.",
+    "comment_label": "Développement / faits / exemples (facultatif)"
+  },
+  {
+    "id": 53,
+    "section": "III. Management souhaité",
+    "type": "text",
+    "question": "Quel type de management souhaitez-vous voir mis en place ? Précisez les comportements, pratiques ou attitudes attendus."
+  },
+  {
+    "id": 54,
+    "section": "VIII. Collaboration inter-départementale",
+    "type": "text",
+    "question": "Quelles interactions inter-départementales fonctionnent particulièrement bien et lesquelles devraient être améliorées ? Merci de vous concentrer sur les processus et les modes de collaboration, sans désigner nominativement de collaborateur."
+  },
+  {
+    "id": 55,
+    "section": "IX. Synthèse et priorités d’amélioration",
+    "type": "text",
+    "question": "Quels sont les deux principaux points forts de l’environnement de travail qu’il convient de préserver ?"
+  },
+  {
+    "id": 56,
+    "section": "IX. Synthèse et priorités d’amélioration",
+    "type": "text",
+    "question": "Quels sont les trois dysfonctionnements qui devraient être traités en priorité ?"
+  },
+  {
+    "id": 57,
+    "section": "IX. Synthèse et priorités d’amélioration",
+    "type": "text",
+    "question": "Quelle mesure concrète devrait, selon vous, être mise en œuvre en premier ?"
+  }
+]

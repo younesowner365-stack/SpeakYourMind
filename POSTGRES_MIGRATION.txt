@@ -1,0 +1,2 @@
+DATABASE_URL doit être configurée dans Render.
+Puis pousser ce projet vers GitHub et attendre le statut Live.
